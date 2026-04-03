@@ -31,7 +31,7 @@ and deployment practices. The stretch goal of collaboration was successfully imp
  Local Setup and Running Instructions
 
  Backend
-1. Clone the repository and navigate to the backend folder.
+1.  navigate to the backend folder.
 2. Run `npm install` to install dependencies.
 3. Create a `.env` file and add your `MONGO_URI` and `JWT_SECRET`.
 4. Start the server using `npm run dev`.
@@ -40,9 +40,9 @@ Frontend
 1. Navigate to the frontend folder.
 2. Run `npm install`.
 3. Start the development server with `npm run dev`.
-4. Open `http://localhost:5000` in your browser.
+4. Open `http://localhost:5173` in your browser.
 
-The backend runs on port 5000 and the frontend on port 3000.
+The backend runs on port 5000 and the frontend on port 5173.
 
  API Endpoints
 
