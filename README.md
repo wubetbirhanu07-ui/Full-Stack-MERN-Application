@@ -1,7 +1,9 @@
 
-deployed link https://full-stack-mern1.netlify.app
+        deployed link 
 
-Backend https://full-stack-mern-application-243c.onrender.com
+ Frontend :https://full-stack-mern1.netlify.app
+
+Backend: https://full-stack-mern-application-243c.onrender.com
 
 Pro-Tasker - Collaborative Project Management Tool
 
