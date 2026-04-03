@@ -31,7 +31,7 @@ const ProjectPage = () => {
       setProject(proj);
       setTasks(tasksRes.data);
 
-      // FIXED: Better way to check if current user is owner
+      
       const currentUserId = proj.owner._id || proj.owner;
       setIsOwner(
         currentUserId.toString() === proj.owner.toString() ||
@@ -56,10 +56,10 @@ const ProjectPage = () => {
 
   const updateTaskStatus = async (taskId, status) => {
   try {
-    // Call backend
+    
     await api.put(`/projects/${id}/tasks/${taskId}`, { status });
     
-    // Update UI immediately
+    
     setTasks(prevTasks => 
       prevTasks.map(task => 
         task._id === taskId ? { ...task, status } : task
